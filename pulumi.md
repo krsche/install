@@ -1,4 +1,6 @@
 # Pulumi
+Check latest versions here: https://www.pulumi.com/docs/get-started/install/versions/
+
 ```bash
 VERSION="3.13.2"
 FOLDER=`mktemp -d /tmp/pulumi.XXXXXXXXXX`
