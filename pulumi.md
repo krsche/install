@@ -1,7 +1,7 @@
 # Pulumi
 ```bash
 VERSION="3.13.2"
-FOLDER=`mktemp -d pulumi.XXXXXXXXXX`
+FOLDER=`mktemp -d /tmp/pulumi.XXXXXXXXXX`
 cd $FOLDER
 wget https://get.pulumi.com/releases/sdk/pulumi-v$VERSION-linux-x64.tar.gz
 tar -xzf pulumi-v$VERSION-linux-x64.tar.gz
