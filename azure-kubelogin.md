@@ -3,7 +3,7 @@ Don't confuse with int128/kubelogin, that is a generic OIDC login client while a
 
 ```bash
 VERSION=v0.0.16
-DIR=`mktemp -d` && cd $DIR
+cd `mktemp -d`
 wget https://github.com/Azure/kubelogin/releases/download/$VERSION/kubelogin-linux-amd64.zip
 unzip kubelogin-linux-amd64.zip
 sudo mv bin/linux_amd64/kubelogin /usr/bin/kubelogin_$VERSION
